@@ -5,11 +5,11 @@ class ThreeStack:
     def push(self, num, obj):
         if num < 1 or num > 3:
             raise Exception("Invalid stack number")
-        self.stacks[stack-1].append(obj)
+        self.stacks[num-1].append(obj)
 
-    def pop(self, stack):
-        if stack < 1 or stack > 3:
+    def pop(self, num):
+        if num < 1 or num > 3:
             raise Exception("Invalid stack number")
-        if not self.stacks[stack-1]:
+        if not self.stacks[num-1]:
             raise Exception("Stack is empty")
-        return self.stacks[stack-1].pop()
+        return self.stacks[num-1].pop()
