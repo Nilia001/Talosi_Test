@@ -1,6 +1,6 @@
 # Talosi_Test
 
-Ce code implémente une classe appelée ThreeStack qui vous permet de créer et de gérer trois piles séparées.
+Ce code implémente une classe appelée ThreeStack qui nous permet de créer et de gérer trois piles séparées.
 
 ## Aperçu des méthodes 
   -  __init__: Initialise une instance de la classe ThreeStack avec une liste vide de trois piles.
